@@ -1,0 +1,9 @@
+[package]
+name = "game"
+version = "0.1.0"
+publish = false
+
+[dependencies]
+bevy_kira_audio = { version = "0.15" }
+rand = { version = "0.8.3" }
+bevy = { version = "0.10" }

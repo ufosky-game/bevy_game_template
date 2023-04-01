@@ -1,0 +1,12 @@
+[package]
+name = "asset_loading"
+version = "0.1.0"
+publish = false
+
+[dependencies]
+bevy = { version = "0.10" }
+
+bevy_asset_loader = { version = "0.15" }
+bevy_kira_audio = { version = "0.15" }
+
+state = {path = "../state"}
